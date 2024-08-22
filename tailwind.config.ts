@@ -8,10 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        white: {
+          DEFAULT: '#f7f4ed'
+        }
+      },
+      backgroundImage:{
+        'hero-pattern' : "url('/assests/Frame 1.svg')"
+      },
+      backgroundSize: {
+        'small': '30px 30px', 
       },
     },
   },
