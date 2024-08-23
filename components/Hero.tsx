@@ -1,13 +1,12 @@
 import React from 'react'
+import Mycarousel from "@/components/Mycarousel"
 
 const Hero = () => {
   return (
-    <div className='pb-20 pt-36'>
-        <div>
-            Hero
-        </div>
+    <div>
+         <Mycarousel/>
     </div>
   )
 }
 
-export default Hero;
+export default Hero
