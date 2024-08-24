@@ -16,7 +16,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section className="flex items-center justify-between  w-screen h-screen bg-transparent">
+    <section className="flex items-center overflow-hidden justify-between  w-screen h-screen bg-transparent">
     {/* Left Image */}
     <div className="flex-1 flex justify-start items-center">
       <Image
